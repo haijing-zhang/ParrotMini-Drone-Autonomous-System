@@ -1,0 +1,22 @@
+%implements s1_b0_ji0ai_0_TLCInterface "C"
+
+%function getOutputAddr_0_0_0_1_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&/*@<b8b6*//*@>b8b0*/cameraModel_B./*@>b8bc*/Blue" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutput_0_0_0_1_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "/*@>b8cc*/cameraModel_B./*@>b8d9*/Blue" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_0_0_1_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&/*@<b8ed*//*@>b8e7*/cameraModel_DW./*@>b8f3*/OnBoardCamera_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_0_0_1_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "/*@>b903*/cameraModel_DW./*@>b910*/OnBoardCamera_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
