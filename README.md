@@ -1,9 +1,10 @@
 # Simulink-Control-of-Parrot-Mini-Drone
 
-Implemented image processing system and path following system for Parrot Mini drone using PID controller. 
+Implemented image processing system and path following system for Parrot Mini drone using a lightweight erosion-based pure pursuit algorithm. 
 
+Control system is based on PID controller and simulated by Simulink.
 
-Solved tricky real-world problems using a lightweight erosion-based pure pursuit algorithm. 
+Successfully transferred what achieves in simultion mode to real world. 
 
 
 ![image text](https://github.com/haijing-zhang/ParrotMiniDrone/blob/master/parrot2.jpeg)
