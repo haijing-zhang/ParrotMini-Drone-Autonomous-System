@@ -4,7 +4,7 @@ Implemented image processing system and path following system for Parrot Mini dr
 
 Control system is based on PID controller and simulated by Simulink.
 
-Successfully transferred what achieves in simultion mode to real world. 
+Successfully transferred what achieves in simultion mode to real world. Fulfuilled tasks: take off, object detection, straight path following, curve path following. 
 
 
 ![image text](https://github.com/haijing-zhang/ParrotMiniDrone/blob/master/parrot2.jpeg)
